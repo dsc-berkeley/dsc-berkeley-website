@@ -24,6 +24,7 @@ the_jinja_env = jinja2.Environment(
     extensions=['jinja2.ext.autoescape'],
     autoescape=True)
 
+
 # The handler section
 class IndexPage(webapp2.RequestHandler):
     def get(self):
@@ -33,6 +34,7 @@ class IndexPage(webapp2.RequestHandler):
     def post(self):
         pass
 
+
 class EventsPage(webapp2.RequestHandler):
     def get(self):
         events_template = the_jinja_env.get_template('templates/events.html')
@@ -40,7 +42,8 @@ class EventsPage(webapp2.RequestHandler):
 
     def post(self):
         pass
-        
+
+
 class TeamPage(webapp2.RequestHandler):
     def get(self):
         team_template = the_jinja_env.get_template('templates/team.html')
@@ -49,6 +52,7 @@ class TeamPage(webapp2.RequestHandler):
     def post(self):
         pass
 
+
 class JoinPage(webapp2.RequestHandler):
     def get(self):
         join_template = the_jinja_env.get_template('templates/join.html')
@@ -56,6 +60,7 @@ class JoinPage(webapp2.RequestHandler):
 
     def post(self):
         pass
+
 
 app = webapp2.WSGIApplication([
     ('/', IndexPage),
