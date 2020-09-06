@@ -1,0 +1,37 @@
+{
+  "name": "dsc-berkeley-website",
+  "version": "2.1.3",
+  "description": "Official website of the Google Developer Student Club at the University of California, Berkeley. Sponsored by Google Developers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./build/server.js",
+    "test": "tsc && nodemon ./build/server.js",
+    "tsc": "tsc",
+    "gcp-build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsc-berkeley/dsc-berkeley-website.git"
+  },
+  "keywords": [
+    "Club",
+    "Berkeley",
+    "Google",
+    "UC-Berkeley"
+  ],
+  "author": "Artem Tkachuk, based on the template of Alexander Garcia (https://www.github.com/iamgarcia)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsc-berkeley/dsc-berkeley-website/issues"
+  },
+  "homepage": "https://github.com/dsc-berkeley/dsc-berkeley-website#readme",
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "typescript": "^4.0.2"
+  }
+}

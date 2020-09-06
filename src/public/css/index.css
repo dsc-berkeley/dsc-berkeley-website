@@ -480,14 +480,14 @@ canvas {
     font-weight: 400;
 }
 
-.footer-social-media .linkedin {
-    color: #0077B5;
+.footer-social-media .github {
+    color: #000000;
     font-size: 40px;
     padding: 10px;
 }
 
-.footer-social-media .instagram {
-    color: #BC2A8D;
+.footer-social-media .facebook {
+    color: #2d6ee3;
     font-size: 40px;
     padding: 10px;
 }
@@ -498,8 +498,8 @@ canvas {
     padding: 10px;
 }
 
-.footer-social-media .discord {
-    color: #7289DA;
+.footer-social-media .slack {
+    color: #000000;
     font-size: 40px;
     padding: 10px;
 }
