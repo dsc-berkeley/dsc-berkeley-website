@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<!-- HEADER BEGIN -->
+<head>
+    <%- include('includes/head.ejs'); -%>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/join.css'>
+</head>
+<!-- HEADER END -->
+
+<body>
+<!-- PRELOADER START -->
+<div class="preloader-background">
+    <div class="loading">
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+        <div class="loading-bar"></div>
+    </div>
+    <div class="blinking">
+        <p>Loading</p>
+    </div>
+</div>
+<!-- PRELOADER END -->
+
+<!-- NAVBAR START -->
+<%- include('includes/navbar.ejs'); -%>
+<!-- NAVBAR END -->
+
+<!-- SIDENAV START -->
+<%- include('includes/sidenav.ejs'); -%>
+<!-- SIDENAV END -->
+
+<!-- Particles.js START -->
+<div class="main">
+
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- JOIN START -->
+    <div id="Join" class="join-section scrollspy">
+        <div class="container">
+            <div class="join-form">
+                <iframe class="join-form-center"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSfFXICxOBr3QZoQET_CL01lTl6cxDucFMQPtyuRKzgdcZIG0Q/viewform?embedded=true" width="640" height="650em" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+        </div>
+    </div>
+    <!-- JOIN END -->
+
+</div>
+<!-- Particles.js END -->
+
+<!-- FOOTER START -->
+<%- include('includes/footer.ejs'); -%>
+<!-- FOOTER END -->
+
+<script src='../js/team.js'></script>
+<script src='../js/particles.js'></script>
+<script src="../libs/OwlCarousel2-2.3.4/js/owl.carousel.min.js"></script>
+</body>
+
+</html>

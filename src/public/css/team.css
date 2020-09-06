@@ -216,10 +216,10 @@ canvas {
 
 .landing-desciption {
     text-align: center;
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     color: #FFFFFF;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .landing-section {
@@ -250,9 +250,6 @@ canvas {
     background: url('../images/events/1.JPG');
 }
 
-#slide2 {
-    background: url('../images/events/info.jpg');
-}
 
 #slide3 {
     background: url('../images/events/3.jpg');
@@ -541,14 +538,14 @@ canvas {
     font-weight: 400;
 }
 
-.footer-social-media .linkedin {
-    color: #0077B5;
+.footer-social-media .github {
+    color: #000000;
     font-size: 40px;
     padding: 10px;
 }
 
-.footer-social-media .instagram {
-    color: #BC2A8D;
+.footer-social-media .facebook {
+    color: #2d6ee3;
     font-size: 40px;
     padding: 10px;
 }
@@ -559,8 +556,8 @@ canvas {
     padding: 10px;
 }
 
-.footer-social-media .discord {
-    color: #7289DA;
+.footer-social-media .slack {
+    color: #000000;
     font-size: 40px;
     padding: 10px;
 }

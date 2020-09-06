@@ -19,13 +19,31 @@ app.set('views', './src/views');
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+//TODO fix the sidenav
+
 //Routes and handlers
 app.get(`/`, (req, res) => {
-   res.render(`index.html`);
-})
+   res.render(`index`);
+});
 
 app.get(`/sign-up`, (req, res) => {
    res.redirect(`https://forms.gle/Ko2Wa8qW7Hc4yC2c7`);
+});
+
+app.get(`/officer`, (req, res) => {
+   res.render(`officer`);
+})
+
+app.get('/contact', (req, res) => {
+   res.redirect(`https://forms.gle/QdFkYm3d7kGWHsDd8`);
+});
+
+app.get('/join', (req, res) => {
+   res.render('join');
+});
+
+app.get('/team', (req, res) => {
+   res.render('team');
 });
 
 //TODO 404
