@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+    <!-- HEADER BEGIN -->
+    <head>
+        <%- include('../includes/head.ejs'); -%>
+        <link rel='stylesheet' type='text/css' media='screen' href='../css/index.css'>
+    </head>
+    <!-- HEADER END -->
+
+
+    <body>
+        <%- include('preloader.ejs'); -%>
+
+        <%- include('../includes/navbar.ejs'); -%>
+
+        <%- include('../includes/sidenav.ejs'); -%>
+
+        <%- include('landing.ejs'); -%>
+
+
+        <!-- CONTENT START -->
+        <div class="main">
+            <%- include('about_us.ejs'); -%>
+
+            <%- include('what_we_do.ejs'); -%>
+
+            <%- include('domains.ejs'); -%>
+
+            <%- include('photo_gallery.ejs'); -%>
+
+            <%- include('contact.ejs'); -%>
+        </div>
+        <!-- CONTENT END -->
+
+
+        <!-- FOOTER START -->
+        <%- include('../includes/footer.ejs'); -%>
+        <!-- FOOTER END -->
+    </body>
+</html>
